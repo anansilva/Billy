@@ -1,5 +1,5 @@
-class EntriesControllerController < ApplicationController
-  before_action set_entry only: [:show, :update, :destroy]
+class EntriesController < ApplicationController
+  before_action :set_entry, only: [:show, :update, :destroy]
 
   def index
     @entries = Entry.all
@@ -25,6 +25,7 @@ class EntriesControllerController < ApplicationController
       render json: @entry
     else
       render json: @entry.errors, status: :unprocessable_entity
+    end
   end
 
   def destroy
