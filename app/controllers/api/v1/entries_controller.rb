@@ -41,7 +41,8 @@ module Api
       end
 
       def entry_params
-        params.require(:entry).permit(:amount, :description, :category, :date)
+        params.require(:entry).permit(:amount, :description, :category, :date,
+                                      :entry_type, :user_id)
       end
     end
   end
