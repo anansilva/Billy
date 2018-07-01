@@ -7,9 +7,13 @@
 }
 
 .btn-primary.btn-circle {
-  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 .btn-secondary.btn-circle {
-  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
