@@ -7,6 +7,14 @@
   margin-top: 50px;
 }
 
+.entries-description {
+  text-align: left;
+}
+
+.entries-amount {
+  text-align: right;
+}
+
 .input-group {
   margin: 50px;
 }
@@ -23,6 +31,16 @@
   border-radius: 50%;
 }
 
+.btn-danger.btn-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
 .entry-date {
   margin-bottom: 20px;
+}
+
+.entry-description {
+  padding-left: 10px;
 }
