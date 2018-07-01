@@ -2,6 +2,11 @@
   margin: 20px;
 }
 
+.container.entries-component {
+  width: 70%;
+  margin-top: 50px;
+}
+
 .input-group {
   margin: 50px;
 }
@@ -16,4 +21,8 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
+}
+
+.entry-date {
+  margin-bottom: 20px;
 }

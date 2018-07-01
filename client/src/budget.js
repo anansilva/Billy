@@ -6,14 +6,14 @@ import { faSyncAlt } from '@fortawesome/free-solid-svg-icons'
 
 function Budget(props) {
   return (
-    <div className="row input-group">
+    <div className="row align-items-center budget-component">
       <div className="col-sm">
         <button type="button" className="btn btn-primary btn-circle">
           <FontAwesomeIcon icon={faPlus} />
         </button>
       </div>
       <div className="col-sm">
-        {props.value}
+        {props.availableBudget}€
       </div>
       <div className="col-sm">
         <button type="button" className="btn btn-secondary btn-circle">
@@ -24,7 +24,7 @@ function Budget(props) {
   );
 }
 Budget.propTypes = {
-  value: PropTypes.number.isRequired
+  availableBudget: PropTypes.number.isRequired
 }
 
 export default Budget;
